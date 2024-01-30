@@ -60,3 +60,4 @@ def Tabelar(genero, opcao):
         print(f'Tabela salva em {genero}_filmes.csv')
     else:
         print(f"Erro na requisição: {requisicao.status_code}")
+Tabelar('horror', 2)
