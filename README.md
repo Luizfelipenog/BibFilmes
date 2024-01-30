@@ -3,3 +3,9 @@ Suas principais funções:
 1-Dado um gênero de filme, rankear os principais por avaliação;
 2-Dado um gênero, recomendar um filme sobre aquele gênero;
 3-Realizar uma tabela sobre informações pertinentes daquele filme.
+
+Para utilizar:
+nome do gênero em Inglês
+Rankear('comedy')
+Recomendar('comedy)
+Tabelar('comedy', 2)
