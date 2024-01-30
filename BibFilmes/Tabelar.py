@@ -4,12 +4,8 @@ import pandas as pd
 # Precisa instalar o puyarrow
 
 def Tabelar(genero, opcao):
-  while True:
 
 
-    if genero.lower() == 'sair':
-        print("Programa encerrado.")
-        break
 
 
     if opcao == 1:
@@ -18,7 +14,7 @@ def Tabelar(genero, opcao):
         url = f'https://www.imdb.com/search/title/?title_type=feature&genres={genero}&user_rating=,10&sort=num_votes,desc'
     else:
         print("Opção inválida.")
-        continue
+
 
     headers = {
         "User-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0"}

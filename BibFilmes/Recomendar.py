@@ -9,14 +9,7 @@ Dependências:
 from bs4 import BeautifulSoup
 import requests
 def Recomendar(genero):
-  while True:
-    # Solicita que o usuário insira o nome do gênero em inglês ou 'sair' para encerrar
 
-
-    # Verifica se o usuário deseja encerrar o programa
-    if genero.lower() == 'sair':
-        print("Programa encerrado.")
-        break
 
     # Constrói a URL para acessar a página de pesquisa no IMDb com base no gênero fornecido
     url = f'https://www.imdb.com/search/title/?title_type=feature&genres={genero}&user_rating=,10&sort=num_votes,desc'
