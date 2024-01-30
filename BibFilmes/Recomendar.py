@@ -8,10 +8,10 @@ Dependências:
 
 from bs4 import BeautifulSoup
 import requests
-
-while True:
+def Recomendar(genero):
+  while True:
     # Solicita que o usuário insira o nome do gênero em inglês ou 'sair' para encerrar
-    genero = input("Digite o nome do gênero em inglês (ou 'sair' para encerrar): ")
+
 
     # Verifica se o usuário deseja encerrar o programa
     if genero.lower() == 'sair':

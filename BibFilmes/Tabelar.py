@@ -3,16 +3,14 @@ import requests
 import pandas as pd
 # Precisa instalar o puyarrow
 
+def Tabelar(genero, opcao):
+  while True:
 
-while True:
-    genero = input("Digite o nome do gênero em inglês que deseja obter as tabelas (ou 'sair' para encerrar): ")
 
     if genero.lower() == 'sair':
         print("Programa encerrado.")
         break
 
-    opcao = int(input(
-        "1- Para ter informações sobre os melhores por nota IMDb\n2- Para ter informações sobre os recomendados\n: "))
 
     if opcao == 1:
         url = f'https://www.imdb.com/search/title/?title_type=feature&genres={genero}&user_rating=,10&sort=user_rating,desc'
