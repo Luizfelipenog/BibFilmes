@@ -8,6 +8,9 @@ Dependências:
 
 from bs4 import BeautifulSoup
 import requests
+
+
+
 def Rankear(genero):
   while True:
     # Solicita que o usuário insira o nome do gênero em inglês ou 'sair' para encerrar
