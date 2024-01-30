@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as arq:
 
 setup(
     name='BibFilmes',
-    version='1.0.0',
+    version='1.0.1',
     license='MIT License',
     author='Luiz Felipe',
     long_description=readme,
