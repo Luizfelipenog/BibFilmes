@@ -5,7 +5,7 @@ Suas principais funções:
 3-Realizar uma tabela sobre informações pertinentes daquele filme.
 
 Para utilizar:
-nome do gênero em Inglês
+nome do gênero em Inglês, opcao=1 para os melhores, opcao=2 para os recomendados
 Rankear('comedy')
 Recomendar('comedy)
 Tabelar('comedy', 2)
