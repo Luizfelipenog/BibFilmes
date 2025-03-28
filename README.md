@@ -8,12 +8,6 @@ BibFilmes é um sistema desenvolvido para rankear, recomendar e tabular filmes. 
 - **Recomendar.py**: Gera recomendações de filmes baseadas em preferências ou histórico.
 - **Tabelar.py**: Organiza dados em formato tabular para visualização ou exportação.
 
-## 📁 Estrutura do Projeto
-``
-BibFilmes/ ├── 📄 Rankear.py # Script para rankear filmes por gênero ├── 📄 Recomendar.py # Script para recomendar filmes com base no gênero ├── 📄 Tabelar.py # Script para organizar os filmes em uma tabela ├── 📄 init.py # Inicializa o pacote BibFilmes ├── 📄 setup.py # Arquivo de configuração para instalação do pacote ├── 📁 BibFilmes.egg-info/ # Metadados do pacote ├── 📁 dist/ # Diretório com os arquivos de distribuição ├── 📄 LICENSE # Arquivo de licença do projeto ├── 📄 README.md # Documentação do projeto └── 📁 .git/ # Repositório Git para controle de versão
-``
-
-
 
 
 
